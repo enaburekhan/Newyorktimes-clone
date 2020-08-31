@@ -11,6 +11,7 @@
 
  a {
    text-decoration: none;
+  
  }
 ul {
   list-style-type: none;
@@ -27,6 +28,9 @@ ul a {
   justify-content: space-between;
   align-items: center;
   border: 1px solid blue;
+  height: 6vh;
+  padding-left: 10px;
+  padding-right: 20px;
   
 
 }
@@ -41,8 +45,32 @@ ul a {
 
 .right-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 15%;
   align-items: center;
   
+}
+
+.button {
+  background-color: #417093;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid #000;
+  
+}
+
+.button a {
+  color: #fff;
+ /* border-radius: 2px;*/
+ /* padding: 10px 20px;*/
+ /* font-size: 11px;
+  font-weight: 700;*/
+}
+
+.center-text a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  /*background-color: blanchedalmond;*/
 }
