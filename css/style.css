@@ -5,7 +5,8 @@
 }
 
 .body {
-  font-family: sans-serif;
+  font-family: geogia, selif;
+  color: #fff;
   
 }
 
@@ -70,7 +71,7 @@ ul a {
 }
 
 .center-text a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   /*background-color: blanchedalmond;*/
 }
@@ -79,6 +80,80 @@ h1{
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   line-height:48px;
-  text-align:center;
+  text-align: left;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  /*float: center;*/
+  width: 30%;
+  /*margin: 0;
+  padding: 0;*/
+   
+}
 
+.wrapper-big-bang {
+  display: flex;
+  justify-content: center;
+}
+
+.big-bang {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 30%;
+  border: 1px solid pink;
+
+}
+
+/*.gun {
+  border: 1px solid orange;
+}*/
+
+.container {
+  /*display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;*/
+  overflow: hidden;
+}
+
+ /*.big-bang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  background-color: chartreuse;
+}*/
+
+.main-img {
+  /*margin-left: 10rem;
+  margin-right: 10rem;*/
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /*flex-flow: column wrap;*/
+}
+
+.main-img img {
+  width: 1114px;
+  height: 600px;
+}
+
+/*.wrap-inflation {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border: 2px solid brown;
+  background-color: crimson;
+}*/
+
+.inflation {
+  width: 55%;
+  border: 1px solid yellow;
+  text-align: center;
+  margin-left: 198px;
+  color: gray;
 }
