@@ -4,12 +4,45 @@
   box-sizing: border-box;
 }
 
+.body {
+  font-family: sans-serif;
+  
+}
+
+ a {
+   text-decoration: none;
+ }
 ul {
   list-style-type: none;
+  
 }
+
+ul a {
+  color: black;
+}
+
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid blue;
+  
 
+}
+
+.left-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+  
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+  
 }
