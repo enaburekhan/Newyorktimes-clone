@@ -12,6 +12,7 @@
 
  a {
    text-decoration: none;
+   color: #000;
   
  }
 ul {
@@ -28,7 +29,7 @@ ul a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   height: 6vh;
   padding-left: 10px;
   padding-right: 20px;
@@ -85,7 +86,7 @@ h1{
   /*flex-direction: column;*/
   align-items: center;
   justify-content: center;
-  background-color: burlywood;
+ /*background-color: burlywood;*/
   /*float: center;*/
   width: 30%;
   /*margin: 0;
@@ -103,7 +104,7 @@ h1{
   flex-flow: row wrap;
   justify-content: center;
   width: 30%;
-  border: 1px solid pink;
+ /* border: 1px solid pink;*/
 
 }
 
@@ -150,10 +151,54 @@ h1{
   background-color: crimson;
 }*/
 
-.inflation {
+.inflation-1 {
   width: 55%;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   text-align: center;
   margin-left: 198px;
   color: gray;
+}
+
+.main-history {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.dennis-icons {
+  display: flex;
+  width: 50%;
+ /* border: 1px solid red;*/
+  justify-content: space-between;
+  height: 8vh;
+
+}
+
+.icons-media {
+  display: flex;
+  /*border: 1px solid green;*/
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  /*align-content: center;*/
+  text-align: center;
+}
+
+.icons-media .icon {
+  background-color: rgb(247, 243, 243);
+  border-radius: 50%;
+  padding: 7px;
+  width: 40px;
+  /*align-self: center;*/
+}
+
+.writer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+ /* border: 1px solid hotpink;*/
+  color: rgba(70, 62, 62, 0.767);
 }
