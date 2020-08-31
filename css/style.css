@@ -74,3 +74,11 @@ ul a {
   font-size: 16px;
   /*background-color: blanchedalmond;*/
 }
+
+h1{
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  line-height:48px;
+  text-align:center;
+
+}
