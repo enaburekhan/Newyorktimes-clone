@@ -279,22 +279,30 @@ h1{
 /* Inflation main-article images start here*/
 
 .revelation img {
-  width: 240px;
-  height: 190px;
+  width: 232px;
+  height: 185px;
   /*border: 1px solid green;*/
 }
 
 .inflation-wrapper {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
+  /*width: 990px;*/
 }
 
 .front-revelation {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
  /* border: 1px solid indigo;*/
-  width: 990px;
+  width: 980px;
   height: auto;
   overflow: hidden;
   grid-gap: 10px 10px;
+}
+
+.theory {
+  /*border: 1px solid red;*/
+  width: 64.5%;
 }
