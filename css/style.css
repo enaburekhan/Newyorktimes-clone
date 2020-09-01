@@ -278,8 +278,23 @@ h1{
 
 /* Inflation main-article images start here*/
 
-.theory img {
-  width: 270px;
+.revelation img {
+  width: 240px;
   height: 190px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
+}
+
+.inflation-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.front-revelation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ /* border: 1px solid indigo;*/
+  width: 990px;
+  height: auto;
+  overflow: hidden;
+  grid-gap: 10px 10px;
 }
