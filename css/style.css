@@ -202,3 +202,14 @@ h1{
  /* border: 1px solid hotpink;*/
   color: rgba(70, 62, 62, 0.767);
 }
+
+.main-article {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-family:  arial, sans-serif;
+  /*font-weight: 700;*/
+  font-size: 18px;
+  color: #333;
+}
