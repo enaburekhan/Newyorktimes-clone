@@ -33,6 +33,7 @@ ul a {
   height: 6vh;
   padding-left: 10px;
   padding-right: 20px;
+  text-align: center;
   
 
 }
@@ -71,13 +72,19 @@ ul a {
   font-weight: 700;*/
 }
 
-.center-text a {
-  font-family: 'Chomsky','Times New Roman', Times, serif;
+.center-text img {
+ /* font-family: 'Chomsky','Times New Roman', Times, serif;
   font-size: 24px;
   font-weight:500;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   /*background-color: blanchedalmond;*/
+  width: 30%;
+  height: 6vh;
+  /*font-size: 16px;*/
+
+ /* border: 1px solid green;*/
+  
 }
 
 h1{
@@ -300,9 +307,24 @@ h1{
   height: auto;
   overflow: hidden;
   grid-gap: 10px 10px;
+  color: #333;
+  font-size: 14px;
 }
 
 .theory {
   /*border: 1px solid red;*/
   width: 64.5%;
+  color: #333;
+}
+
+.img-text {
+  padding-right: 5px;
+ /* border: 1px solid purple;*/
+}
+
+.author {
+  /*border: 1px solid gold;*/
+  width: 64.5%;
+  color: #333;
+  padding: 40px 0;
 }
