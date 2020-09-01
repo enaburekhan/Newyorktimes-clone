@@ -5,12 +5,14 @@
 }
 
 .body {
-  font-family: sans-serif;
+  font-family: geogia, selif;
+  color: #fff;
   
 }
 
  a {
    text-decoration: none;
+   color: #000;
   
  }
 ul {
@@ -27,7 +29,7 @@ ul a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   height: 6vh;
   padding-left: 10px;
   padding-right: 20px;
@@ -73,6 +75,8 @@ ul a {
   font-family: 'Chomsky','Times New Roman', Times, serif;
   font-size: 24px;
   font-weight:500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
   /*background-color: blanchedalmond;*/
 }
 
@@ -80,6 +84,195 @@ h1{
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   line-height:48px;
-  text-align:center;
+  text-align: left;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: center;
+ /*background-color: burlywood;*/
+  /*float: center;*/
+  width: 30%;
+  /*margin: 0;
+  padding: 0;*/
+   
+}
+
+.wrapper-big-bang {
+  display: flex;
+  justify-content: center;
+}
+
+.big-bang {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 30%;
+ /* border: 1px solid pink;*/
 
 }
+
+/*.gun {
+  border: 1px solid orange;
+}*/
+
+.container {
+  /*display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;*/
+  overflow: hidden;
+}
+
+ /*.big-bang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  background-color: chartreuse;
+}*/
+
+.main-img {
+  /*margin-left: 10rem;
+  margin-right: 10rem;*/
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /*flex-flow: column wrap;*/
+}
+
+.main-img img {
+  width: 1114px;
+  height: 600px;
+}
+
+/*.wrap-inflation {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border: 2px solid brown;
+  background-color: crimson;
+}*/
+
+.inflation-1 {
+  width: 55%;
+  /*border: 1px solid yellow;*/
+  text-align: center;
+  margin-left: 198px;
+  color: gray;
+}
+
+.main-history {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.dennis-icons {
+  display: flex;
+  width: 50%;
+ /* border: 1px solid red;*/
+  justify-content: space-between;
+  height: 8vh;
+
+}
+
+.icons-media {
+  display: flex;
+  /*border: 1px solid green;*/
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  /*align-content: center;*/
+  text-align: center;
+}
+
+.icons-media .icon {
+  background-color: rgb(247, 243, 243);
+  border-radius: 50%;
+  padding: 7px;
+  width: 40px;
+  /*align-self: center;*/
+}
+
+.writer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+ /* border: 1px solid hotpink;*/
+  color: rgba(70, 62, 62, 0.767);
+}
+
+.left-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-flow: column wrap;
+  font-family:  arial, sans-serif;
+  /*font-weight: 700;*/
+  font-size: 16px;
+  color: #333;
+}
+
+/*main article container*/
+.main-container {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  justify-content: flex-end;
+  /*flex-flow: row wrap;*/
+  align-items: center;
+}
+
+/*aside bar section starts here*/
+.aside-img {
+  border: 1px solid purple;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /*height: 100%;*/
+  padding: 5px;
+}
+
+.aside-img img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid red;
+ 
+}
+.mtv-image {
+  border: 1px solid pink;
+  display: flex;
+  width: 40%;
+  font-size: 14px;
+}
+
+.thank-you {
+  border: 1px solid brown;
+  width: 30%;
+  
+}
+.theory{
+  text-align: center;
+}
+.inflation{
+  display:flex;
+  justify-content:space-between;
+  
+
+}
+
+.inflation-img{
+  height:auto;
+  width: 100%;
+  align-self: center;
+  background-size: cover;
+
+}
+/*.left-container {
+
+}*/
