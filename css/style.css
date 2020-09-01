@@ -256,23 +256,30 @@ h1{
   width: 30%;
   
 }
-.theory{
+
+/*.theory{
   text-align: center;
 }
 .inflation{
   display:flex;
   justify-content:space-between;
-  
+}*/
 
-}
-
-.inflation-img{
+/*.inflation-img{
   height:auto;
   width: 100%;
   align-self: center;
   background-size: cover;
 
-}
+}*/ 
 /*.left-container {
 
 }*/
+
+/* Inflation main-article images start here*/
+
+.theory img {
+  width: 270px;
+  height: 190px;
+  border: 1px solid green;
+}
