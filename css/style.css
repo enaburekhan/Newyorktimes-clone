@@ -70,8 +70,9 @@ ul a {
 }
 
 .center-text a {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-family: 'Chomsky','Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight:500;
   /*background-color: blanchedalmond;*/
 }
 
