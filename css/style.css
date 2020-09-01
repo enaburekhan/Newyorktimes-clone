@@ -203,13 +203,57 @@ h1{
   color: rgba(70, 62, 62, 0.767);
 }
 
-.main-article {
+.left-container {
   display: flex;
   width: 50%;
   justify-content: center;
   flex-flow: column wrap;
   font-family:  arial, sans-serif;
   /*font-weight: 700;*/
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
 }
+
+/*main article container*/
+.main-container {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  justify-content: flex-end;
+  /*flex-flow: row wrap;*/
+  align-items: center;
+}
+
+/*aside bar section starts here*/
+.aside-img {
+  border: 1px solid purple;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /*height: 100%;*/
+  padding: 5px;
+}
+
+.aside-img img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid red;
+ 
+}
+.mtv-image {
+  border: 1px solid pink;
+  display: flex;
+  width: 40%;
+  font-size: 14px;
+}
+
+/*.thank-you {
+  border: 1px solid brown;
+  width: 30%;
+  
+}*/
+
+/*.left-container {
+
+}*/
