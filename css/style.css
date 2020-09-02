@@ -246,7 +246,7 @@ h1{
 /*main article container*/
 .main-container {
   display: flex;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   width: 100%;
   justify-content: flex-end;
   /*flex-flow: row wrap;*/
@@ -431,7 +431,7 @@ h1{
 
 .read {
   border: 1px solid black;
-  width: 50%;
+  width: 47%;
   float: left;
   text-align: center;
   
@@ -442,7 +442,8 @@ h1{
   width: 650px;
   float: right;
   padding: 20px 0 40px 0;
-  /*margin-left: auto;*/
+
+  margin-left: 5px;
 }
 
 .reload {
@@ -451,4 +452,56 @@ h1{
   float: right;
   margin: 5px;
   
+}
+
+/*More in space and astronomy styling*/
+
+.astronomy img {
+  width: 232px;
+  height: 185px;
+  
+}
+
+.wrapper-astronomy {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.container-astronomy {
+  border: 1px solid hotpink;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.aside-right {
+  border: 1px solid brown;
+  width: 40%;
+}
+
+.wrapper-astronomy-header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.astronomy-header {
+  border: 5px solid purple;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.astronomy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.popular {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid green;
+  width: 26.7%;
 }
