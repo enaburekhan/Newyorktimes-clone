@@ -360,6 +360,7 @@ h1{
 }
 
 /*article-2 section*/
+
 .article-sub {
   display: flex;
   flex-direction: column;
@@ -382,7 +383,7 @@ h1{
 }
 
 .video {
-  width: 73%;
+  width: 83%;
   height: 358px;
   /*border: "0"; */
 }
@@ -395,8 +396,59 @@ h1{
 }
 
 .andrei {
-  color: #333;
+  color: rgb(102, 102, 102);
   font-size: 15px;
   /*border: 1px solid pink;*/
-  width: 72.5%;
+  width: 83%;
+  padding: 10px 90px 40px 0;
+}
+
+.satalite img {
+  width: 98%;
+  height: 450px;
+}
+
+.telescope {
+  color: rgb(102, 102, 102);
+  padding: 5px 0 30px 0;
+}
+
+.ripples {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+
+.ripples a {
+  /*color: rgba(150, 142, 142, 0.979);*/
+  color: rgb(102, 102, 102);
+  /*text-underline-position: blue;*/
+  text-decoration-line: underline;
+}
+
+.stanford {
+  font-size: 13px;
+}
+
+.read {
+  border: 1px solid black;
+  width: 50%;
+  float: left;
+  text-align: center;
+  
+}
+
+.comment-section {
+  /*border: 1px solid green;*/
+  width: 650px;
+  float: right;
+  padding: 20px 0 40px 0;
+  /*margin-left: auto;*/
+}
+
+.reload {
+  width: 33%;
+  /*border: 1px solid purple;*/
+  float: right;
+  margin: 5px;
+  
 }
