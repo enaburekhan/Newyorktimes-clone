@@ -454,22 +454,21 @@ h1{
   
 }
 
-/*More in space and astronomy styling*/
+/*More in space and astronomy styling starts here*/
 
 .astronomy img {
-  width: 232px;
+  width: 275px;
   height: 185px;
-  
 }
 
 .wrapper-astronomy {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   display: flex;
   justify-content: center;
 }
 
 .container-astronomy {
-  border: 1px solid hotpink;
+  /*border: 1px solid hotpink;*/
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -477,31 +476,90 @@ h1{
 }
 
 .aside-right {
-  border: 1px solid brown;
-  width: 40%;
+  /*border: 1px solid brown;*/
+  width: 26.5%;
+  height: 100%;
 }
 
 .wrapper-astronomy-header {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .astronomy-header {
-  border: 5px solid purple;
+ /* border: 5px solid purple;*/
   width: 80%;
   display: flex;
   justify-content: space-between;
+  /*border: 1px solid darkgreen;*/
+  padding: 15px 0;
 }
+
+/*.container-astronomy {
+  border: 2px solid darkgreen;
+  width: 75%;
+}*/
 
 .astronomy {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: 70px 70px;*/  
+  /*border: 3px solid black;*/
+  width: 72.5%;
 }
 
 .popular {
   display: flex;
   justify-content: flex-start;
-  border: 1px solid green;
-  width: 26.7%;
+  /*border: 6px solid green;*/
+  width: 26.5%;
+}
+
+.editors-pick {
+  /*border: 1px solid indigo;*/
+  width: 80%;
+  padding: 15px 0;
+}
+
+.wrapper-editors-pick {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-astronomy-img img {
+  /*border: 1px solid yellow;*/
+  width: 275px;
+  height: 185px;  
+}
+
+.wrapper-bottom-astronomy-img {
+  /*border: 3px solid blue;*/
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.grand-wrapper-bottom-astronomy-img {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-aside-right {
+  width: 26.5%;
+}
+
+.bottom-astronomy-img {
+  /*border: 3px solid black;*/
+  width: 72.5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hr {
+  width: 60.5%;
+}
+
+.trump {
+  font-size: 18px;
 }
