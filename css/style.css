@@ -24,6 +24,7 @@ ul {
 ul a {
   color: black;
 }
+/* Nav bar section starts here */
 
 .nav-bar {
   display: flex;
@@ -245,9 +246,10 @@ h1 {
 }
 
 /*main article container*/
+
 .main-container {
   display: flex;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 100%;
   justify-content: flex-end;
   /*flex-flow: row wrap;*/
@@ -255,6 +257,7 @@ h1 {
 }
 
 /*aside bar section starts here*/
+
 .container-right {
   display: flex;
   justify-content: flex-start;
@@ -362,7 +365,7 @@ h1 {
   padding: 40px 0;
 }
 
-/*article-2 section*/
+/*article-2 section starts here */
 
 .article-sub {
   display: flex;
@@ -457,7 +460,7 @@ h1 {
   
 }
 
-/*More in space and astronomy styling starts here*/
+/*More in space and astronomy styling section starts here*/
 
 .astronomy img {
   width: 275px;
@@ -559,11 +562,97 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/*.hr {
-  width: 60.5%;
+/*hr {
+  width: 80%;
 }*/
 
 .trump {
   font-size: 18px;
   padding: 10px;
 }
+
+/* footer section starts here */
+
+.wrapper-footer-home-page {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-home-page {
+  /*border: 1px solid red;*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 10px 0;
+  
+}
+
+.home-page a {
+  color: rgb(102, 102, 102);
+  /*border: 1px solid green;*/
+  font-size: 13px;
+}
+
+.wrapper-newyorktimes {
+  display: flex;
+  justify-content: center;
+}
+
+.newyorktimes {
+  /*border: 1px solid hotpink;*/
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 80%;
+  font-size: 14px;
+  height: 35vh;
+  
+}
+
+.newyorktimes h5 {
+  /*border: 1px solid green;*/
+  padding: 5px; 
+}
+
+/*.newyorktimes a {
+  display: flex;
+  flex-direction: column;
+ border: 1px solid red;
+  /*padding-bottom: 20px;
+  align-self: flex-end;
+}*/
+
+.icons-digital {
+ /* border: 1px solid blue;*/
+  padding: 3px;
+  font-size: 14px;  
+}
+
+.icons-digital2 {
+  font-size: 16px;
+  padding: 3px;
+}
+
+.icons-sub-section {
+  padding-bottom: 10px;
+}
+
+.wrapper-footer-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 2.5fr repeat(12, 1fr);
+  width: 79%;
+  font-size: 12px;
+  text-align: center;
+  color: rgb(102, 102, 102);
+  /*border: 1px solid violet;*/
+  /*flex: 1;*/
+}
+
+
+
