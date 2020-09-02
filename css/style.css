@@ -247,7 +247,7 @@ h1 {
 /*main article container*/
 .main-container {
   display: flex;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
   width: 100%;
   justify-content: flex-end;
   /*flex-flow: row wrap;*/
@@ -434,7 +434,7 @@ h1 {
 
 .read {
   border: 1px solid black;
-  width: 50%;
+  width: 47%;
   float: left;
   text-align: center;
 
@@ -445,7 +445,8 @@ h1 {
   width: 650px;
   float: right;
   padding: 20px 0 40px 0;
-  /*margin-left: auto;*/
+
+  margin-left: 5px;
 }
 
 .reload {
@@ -453,5 +454,116 @@ h1 {
   /*border: 1px solid purple;*/
   float: right;
   margin: 5px;
+  
+}
 
+/*More in space and astronomy styling starts here*/
+
+.astronomy img {
+  width: 275px;
+  height: 185px;
+}
+
+.wrapper-astronomy {
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: center;
+}
+
+.container-astronomy {
+  /*border: 1px solid hotpink;*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.aside-right {
+  /*border: 1px solid brown;*/
+  width: 26.5%;
+  height: 100%;
+}
+
+.wrapper-astronomy-header {
+  display: flex;
+  justify-content: center;
+  /*border: 1px solid red;*/
+}
+
+.astronomy-header {
+ /* border: 5px solid purple;*/
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /*border: 1px solid darkgreen;*/
+  padding: 15px 0;
+}
+
+/*.container-astronomy {
+  border: 2px solid darkgreen;
+  width: 75%;
+}*/
+
+.astronomy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: 70px 70px;*/  
+  /*border: 3px solid black;*/
+  width: 72.5%;
+}
+
+.popular {
+  display: flex;
+  justify-content: flex-start;
+  /*border: 6px solid green;*/
+  width: 26.5%;
+}
+
+.editors-pick {
+  /*border: 1px solid indigo;*/
+  width: 80%;
+  padding: 15px 0;
+}
+
+.wrapper-editors-pick {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-astronomy-img img {
+  /*border: 1px solid yellow;*/
+  width: 275px;
+  height: 185px;  
+}
+
+.wrapper-bottom-astronomy-img {
+  /*border: 3px solid blue;*/
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.grand-wrapper-bottom-astronomy-img {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-aside-right {
+  width: 26.5%;
+}
+
+.bottom-astronomy-img {
+  /*border: 3px solid black;*/
+  width: 72.5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*.hr {
+  width: 60.5%;
+}*/
+
+.trump {
+  font-size: 18px;
+  padding: 10px;
 }
