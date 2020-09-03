@@ -6,13 +6,13 @@ This a visual representation of how the page looks like is in the image below.
 
 ![image](https://user-images.githubusercontent.com/30318155/92102993-a500bb80-eddf-11ea-8f21-e4a9e4c65283.png)
 
-> The page was done in HTML5 and designed in CSS3 using the positioning and floating elements.The page has a navbar, header section, main content section which comprises of photographs and an embedded videos. It also has an aside content area and a footer with various links. The bottom footer is fixed at the bottom.
+> The page was done in HTML5 and designed in CSS3 using the positioning and floating elements.The page has a navbar, header section, main content section which comprises of images and an embedded videos. It also has an aside content area and a footer with various links. The bottom footer is fixed at the bottom.
 
-*Note: The Page is purely done in HTML and CSS and has media queries.*
+*Note: The Page is purely done in HTML and CSS and has no media queries.*
 
 ## Built With
 - HMTL5
-- CSS3
+- CSS3 box model
 - CSS Flexbox 
 - CSS Grid
 - CSS Float
@@ -25,7 +25,7 @@ To quickly see our project in action, visit the [live demo](https://raw.githack.
 
 ### Prerequisites
 
-To get this project up and running, you must have a browser running your machine.
+To get this project up and running, you must have a browser running on your machine.
 
 ### Installation
 

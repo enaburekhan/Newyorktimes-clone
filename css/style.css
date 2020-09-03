@@ -24,35 +24,73 @@ ul {
 ul a {
   color: black;
 }
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.just {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.itemz {
+  align-items: center;
+}
+
+.middle {
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-95 {
+  width: 95%;
+}
+
+.width-15 {
+  width: 15%;
+}
+
 /* Nav bar section starts here */
 
 .nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /*border: 1px solid blue;*/
   height: 6vh;
   padding-left: 10px;
   padding-right: 20px;
-  text-align: center;
-
-
-}
-
-.left-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 15%;
-  align-items: center;
-
 }
 
 .right-nav {
-  display: flex;
   justify-content: space-around;
-  width: 15%;
-  align-items: center;
-
 }
 
 .button {
@@ -67,88 +105,22 @@ ul a {
 
 .button a {
   color: #fff;
-  /* border-radius: 2px;*/
-  /* padding: 10px 20px;*/
-  /* font-size: 11px;
-  font-weight: 700;*/
 }
 
 .center-text img {
-  /* font-family: 'Chomsky','Times New Roman', Times, serif;
-  font-size: 24px;
-  font-weight:500;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 16px;
-  /*background-color: blanchedalmond;*/
   width: 30%;
   height: 6vh;
-  /*font-size: 16px;*/
-
-  /* border: 1px solid green;*/
-
 }
 
 /*Main content section starts here*/
 
-h1 {
+.big-bang {
+  flex-flow: row wrap;
+  width: 30%;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   line-height: 48px;
   text-align: left;
-  display: flex;
-  /*flex-direction: column;*/
-  align-items: center;
-  justify-content: center;
-  /*background-color: burlywood;*/
-  /*float: center;*/
-  width: 30%;
-  /*margin: 0;
-  padding: 0;*/
-
-}
-
-.wrapper-big-bang {
-  display: flex;
-  justify-content: center;
-}
-
-.big-bang {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 30%;
-  /* border: 1px solid pink;*/
-
-}
-
-/*.gun {
-  border: 1px solid orange;
-}*/
-
-.container {
-  /*display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;*/
-  overflow: hidden;
-}
-
-/*.big-bang {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid red;
-  background-color: chartreuse;
-}*/
-
-.main-img {
-  /*margin-left: 10rem;
-  margin-right: 10rem;*/
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  /*flex-flow: column wrap;*/
 }
 
 .main-img img {
@@ -156,68 +128,29 @@ h1 {
   height: 600px;
 }
 
-/*.wrap-inflation {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  border: 2px solid brown;
-  background-color: crimson;
-}*/
-
 .inflation-1 {
   width: 55%;
-  /*border: 1px solid yellow;*/
-  text-align: center;
   margin-left: 198px;
   color: gray;
 }
 
-.main-history {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  /*border: 1px solid blue;*/
-}
-
-.wrapper-dennis-icons {
-  /*border: 1px solid blueviolet;*/
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .dennis-icons {
-  display: flex;
   width: 60%;
-  /*border: 1px solid red;*/
-  justify-content: space-between;
   height: 8vh;
   margin: 40px;
-
 }
 
 .icons-media {
-  display: flex;
-  /*border: 1px solid green;*/
   width: 50%;
-  justify-content: flex-start;
-  align-items: center;
-  /*align-content: center;*/
-  text-align: center;
 }
 
 .icons-media .icon {
-  display: flex;
   justify-content: space-evenly;
   background-color: rgb(247, 243, 243);
   border-radius: 50%;
   padding: 7px;
   margin: 5px;
   width: 40px;
-  /*border: 1px solid black;*/
-  /*align-self: center;*/
 }
 
 .icons-media .non-icon {
@@ -226,12 +159,7 @@ h1 {
 }
 
 .writer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   height: 100%;
-  /*border: 1px solid black;*/
   color: rgb(102, 102, 102);
   width: 39%;
   align-self: flex-end;
@@ -239,113 +167,61 @@ h1 {
 }
 
 .overbye {
-  /*border: 1px solid red;*/
   padding-left: 25px;
 }
 
-.left-container-wrapper {
-  /*border: 2px solid purple;*/
-  width: 95%;
-  align-items: center;
-  justify-content: flex-end;
-  overflow: hidden;
-
-}
-
 .left-container {
-  display: flex;
-  width: 95%;
-  justify-content: flex-end;
   flex-flow: column wrap;
   font-family: arial, sans-serif;
-  /*font-weight: 700;*/
   font-size: 16px;
   color: #333;
   align-items: flex-end;
-  /*border: 2px solid navy;*/
 }
 
 .left-container p {
-  display: flex;
-  justify-content: flex-end;
-  /*border: 2px solid brown;*/
   align-self: flex-end;
   padding-right: 30px;
   width: 60%;
 }
 
-/*main article container*/
-
-.main-container {
-  display: flex;
-  /*border: 1px solid red;*/
-  width: 100%;
-  justify-content: flex-end;
-  /*flex-flow: row wrap;*/
-  align-items: center;
-}
-
 /*aside bar section starts here*/
 
 .container-right {
-  display: flex;
-  justify-content: flex-start;
-  /*border: 6px solid black;*/
   align-items: flex-start;
   width: 35%;
-
-
 }
 
 .aside-img {
-  /*border: 5px solid purple;*/
-  display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
-  align-items: center;
   margin: 0;
   padding: 0;
-  /*height: 100%;*/
-  /*padding: 5px;*/
 }
 
 .aside-img img {
   width: 79px;
   height: 79px;
-  /*border: 1px solid red;*/
   padding-right: 8px;
 
 }
 
 .mtv-image {
-  /*border: 1px solid pink;*/
-  display: flex;
   width: 55%;
   font-size: 14px;
-  /*padding: 3px;*/
-  justify-content: space-between;
 }
 
 .wrapper-thank-you {
-  /*border: 1px solid green;*/
-  display: flex;
-  justify-content: center;
   width: 70%;
   height: 14vh;
   
 }
 
 .thank-you {
-  /*border: 1px solid brown;*/
   width: 29%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: 14px;
 }
 
 .pre-thank-you {
-  /*border: 1px solid purple;*/
   padding: 15px 0;
 }
 
@@ -354,71 +230,41 @@ h1 {
 }
 
 .article-padding {
-  /*border: 1px solid blue;*/
   padding: 15px 0;
   width: 60.5%;
 }
-
-/*.theory{
-  text-align: center;
-}
-.inflation{
-  display:flex;
-  justify-content:space-between;
-}*/
-
-/*.inflation-img{
-  height:auto;
-  width: 100%;
-  align-self: center;
-  background-size: cover;
-
-}*/
-/*.left-container {
-
-}*/
 
 /* Inflation main-article images start here*/
 
 .revelation img {
   width: 232px;
   height: 185px;
-  /*border: 1px solid green;*/
 }
 
 .inflation-wrapper {
-  display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  /*width: 990px;*/
 }
 
 .front-revelation {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* border: 1px solid indigo;*/
   width: 980px;
   height: auto;
-  overflow: hidden;
   grid-gap: 10px 10px;
   color: #333;
   font-size: 14px;
 }
 
 .theory {
-  /*border: 1px solid red;*/
   width: 64.5%;
   color: #333;
+  margin: 32px 0 25px 0;
 }
 
 .img-text {
   padding-right: 5px;
-  /* border: 1px solid purple;*/
 }
 
 .author {
-  /*border: 1px solid gold;*/
   width: 64.5%;
   color: #333;
   padding: 40px 0;
@@ -427,24 +273,10 @@ h1 {
 /*article-2 section starts here */
 
 .article-sub {
-  display: flex;
-  flex-direction: column;
   width: 50%;
   font-family: arial, sans-serif;
-  align-items: center;
-  justify-content: space-between;
   color: #333;
   overflow: auto;
-  /*border: 1px solid blue;*/
-
-}
-
-.container-article-sub {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid black;*/
-
 }
 
 .video {
@@ -454,7 +286,6 @@ h1 {
 }
 
 .gap {
-  /*border: 1px solid orchid;*/
   font-size: 18px;
   width: 650px;
   padding: 5px;
@@ -463,7 +294,6 @@ h1 {
 .andrei {
   color: rgb(102, 102, 102);
   font-size: 15px;
-  /*border: 1px solid pink;*/
   width: 83%;
   padding: 10px 90px 40px 0;
 }
@@ -484,9 +314,7 @@ h1 {
 }
 
 .ripples a {
-  /*color: rgba(150, 142, 142, 0.979);*/
   color: rgb(102, 102, 102);
-  /*text-underline-position: blue;*/
   text-decoration-line: underline;
 }
 
@@ -498,22 +326,17 @@ h1 {
   border: 1px solid black;
   width: 47%;
   float: left;
-  text-align: center;
-
 }
 
 .comment-section {
-  /*border: 1px solid green;*/
   width: 650px;
   float: right;
   padding: 20px 0 40px 0;
-
   margin-left: 5px;
 }
 
 .reload {
   width: 33%;
-  /*border: 1px solid purple;*/
   float: right;
   margin: 5px;
   
@@ -526,95 +349,36 @@ h1 {
   height: 185px;
 }
 
-.wrapper-astronomy {
-  /*border: 2px solid black;*/
-  display: flex;
-  justify-content: center;
-}
-
-.container-astronomy {
-  /*border: 1px solid hotpink;*/
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  
-}
-
 .aside-right {
-  /*border: 1px solid brown;*/
   width: 26.5%;
   height: 100%;
 }
 
-.wrapper-astronomy-header {
-  display: flex;
-  justify-content: center;
-  /*border: 1px solid red;*/
-}
-
 .astronomy-header {
- /* border: 5px solid purple;*/
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  /*border: 1px solid darkgreen;*/
   padding: 15px 0;
 }
 
-/*.container-astronomy {
-  border: 2px solid darkgreen;
-  width: 75%;
-}*/
-
 .astronomy {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*grid-template-rows: 70px 70px;*/  
-  /*border: 3px solid black;*/
   width: 72.5%;
 }
 
 .popular {
-  display: flex;
-  justify-content: flex-start;
-  /*border: 6px solid green;*/
   width: 26.5%;
 }
 
 .editors-pick {
-  /*border: 1px solid indigo;*/
-  width: 80%;
   padding: 15px 0;
 }
 
-.wrapper-editors-pick {
-  display: flex;
-  justify-content: center;
-}
-
 .galaxy-talk {
-  /*border: 1px solid green;*/
   font-size: 13px;
   color: rgb(102, 102, 102);
 }
 
 .bottom-astronomy-img img {
-  /*border: 1px solid yellow;*/
   width: 275px;
   height: 185px;  
-}
-
-.wrapper-bottom-astronomy-img {
-  /*border: 3px solid blue;*/
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  /*border: 1px solid black;*/
-}
-
-.grand-wrapper-bottom-astronomy-img {
-  display: flex;
-  justify-content: center;
 }
 
 .bottom-aside-right {
@@ -622,75 +386,38 @@ h1 {
 }
 
 .bottom-astronomy-img {
-  /*border: 3px solid black;*/
   width: 72.5%;
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
-/*hr {
-  width: 80%;
-}*/
 
 .trump {
   font-size: 18px;
   padding: 10px;
 }
 
-/* footer section starts here */
-
-.wrapper-footer-home-page {
-  display: flex;
-  justify-content: center;
-}
-
 .footer-home-page {
-  /*border: 1px solid red;*/
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px 0 10px 0;
   
 }
 
 .home-page a {
   color: rgb(102, 102, 102);
-  /*border: 1px solid green;*/
   font-size: 13px;
 }
 
-.wrapper-newyorktimes {
-  display: flex;
-  justify-content: center;
-}
-
 .newyorktimes {
-  /*border: 1px solid hotpink;*/
-  display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  width: 80%;
   font-size: 14px;
   height: 35vh;
   
 }
 
 .newyorktimes h5 {
-  /*border: 1px solid green;*/
   padding: 5px; 
 }
 
-/*.newyorktimes a {
-  display: flex;
-  flex-direction: column;
- border: 1px solid red;
-  /*padding-bottom: 20px;
-  align-self: flex-end;
-}*/
-
 .icons-digital {
- /* border: 1px solid blue;*/
   padding: 3px;
   font-size: 14px;  
 }
@@ -704,54 +431,21 @@ h1 {
   padding-bottom: 10px;
 }
 
-.wrapper-footer-bottom {
-  display: flex;
-  justify-content: center;
-}
-
 .footer-bottom {
-  display: grid;
   grid-template-columns: 2.5fr repeat(12, 1fr);
   width: 79%;
   font-size: 12px;
-  text-align: center;
   color: rgb(102, 102, 102);
   padding-bottom: 40px;
   margin-bottom: 30px;
-  /*border: 1px solid violet;*/
-  /*flex: 1;*/
 }
 
 .last-footer-bottom {
   border-top: 1px solid black;
-  display: grid;
   grid-template-columns: 4fr 2fr;
-  /*height: 8vh;*/
-  align-items: center;
-  /*overflow: auto;*/
-  /*clear: both;*/
-  /*position: fixed;*/
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 7%;
-  
-
-  /*overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;*/
-  
-}
-
-.access-more {
-  /*border: 1px solid blue;*/
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer-expand {
-  /*border: 1px solid green;*/
-  display: flex;
-  justify-content: center; 
+  height: 7%; 
 }
 
 .fixed-padding {
