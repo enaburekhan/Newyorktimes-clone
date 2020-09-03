@@ -54,7 +54,7 @@ ul a {
   flex-direction: column;
 }
 
-.hidden {
+.mask {
   overflow: hidden;
 }
 
