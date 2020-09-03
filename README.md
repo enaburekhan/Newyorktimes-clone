@@ -38,7 +38,7 @@ To get this project up and running, you must have a browser running on your mach
 👤 **Eric Enaburekhan**
 
 - Github: [@enaburekhan](https://github.com/enaburekhan)
-- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Twitter: [@CeamatuV](https://twitter.com/enaburekhaneric)
 - Linkedin: [@](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
 
 👤**Tendai Nyandoro**
