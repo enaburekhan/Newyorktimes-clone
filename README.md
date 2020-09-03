@@ -1,6 +1,6 @@
-# Bubble Sort
+# Newyork Times Clone
 
-> For this project, we created two **sorting algorithms** that use the [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) method. 
+> For this project, we created two **Newyork times Replica Page **  [Positioning and Floating elements](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements) CSS. 
 
 This side-by-side comparative method is seen in the GIF image below.
 
