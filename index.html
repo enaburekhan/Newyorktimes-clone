@@ -32,9 +32,10 @@
           </div>
           <div class="button login">
             <li><a href="#">LOG IN</a></li>
-          </div>
+          </div>    
         </div>
       </ul>
+      <hr>
     </nav>
   </header>
 
@@ -60,21 +61,23 @@
     </section>
     <article>
       <div class="main-history">
-        <section class="dennis-icons">
-          <div class="writer">
-            <h4><a href="#Dennis">By Dennis Overbye</a></h4>
-            <p>March 17, 2014</p>
-          </div>
-          <ul class="icons-media">
-            <Li class="icon"><a href="#"><i class='fab'>&#xf39e;</i></a></Li>
-            <li class="icon"><a href="#"><i class='fab'>&#xf099;</i></a></li>
-            <li class="icon"><a href="#"><i class='fas'>&#xf199;</i></a></li>
-            <li class="icon"><a href="#"><i class='fas'>&#xf064;</i></a></li>
-            <li><a href="#"><i class='fas fa-unity'></i></a></li>
-            <li><a href="#"><i class='far'>&#xf27a;</i></a></li>
-          </ul>
+          <div class="wrapper-dennis-icons">
+            <section class="dennis-icons">
+              <div class="writer">
+                <h4 class="overbye"><a href="#Dennis">By Dennis Overbye</a></h4>
+                <p>March 17, 2014</p>
+              </div>
+              <ul class="icons-media">
+                <Li class="icon"><a href="#"><i class='fab'>&#xf39e;</i></a></Li>
+                <li class="icon"><a href="#"><i class='fab'>&#xf099;</i></a></li>
+                <li class="icon"><a href="#"><i class='fas'>&#xf199;</i></a></li>
+                <li class="icon"><a href="#"><i class='fas'>&#xf064;</i></a></li>
+                <li class="non-icon"><a href="#"><i class='fas fa-unity'></i></a></li>
+                <li class="non-icon"><a href="#"><i class='far'>&#xf27a;</i></a></li>
+              </ul>
 
-        </section>
+            </section>
+          </div>
 
         <div class="main-container">
           <div class="left-container-wrapper">
@@ -126,12 +129,15 @@
               <!--</section>-->
 
 
-              <section class="thank-you">
-
-                <h4 class="gap">Thanks for reading The Times.</h4>
-                <h4 class="gap"><a href="#">Subscribe to The Times</a></h4>
-
-
+              <section class="wrapper-thank-you">
+                <div class="thank-you">
+                  <hr>
+                  <div class="pre-thank-you">
+                  <h4>Thanks for reading The Times.</h4>
+                  <h4 class="pre-subscribe"><a href="#">Subscribe to The Times</a></h4>
+                  </div>
+                  <hr>
+                <div>
               </section>
 
               <!--<div></div>-->
@@ -158,7 +164,7 @@
                 universes
                 bubbling into frothy eternity, like a pot of pasta water boiling over.
               </p>
-              <h3 class="gap">‘As Big as It Gets’</h3>
+              <div class="article-padding"><h3 class="gap">‘As Big as It Gets’</h3></div>
               <p class="gap">In our own universe, it would serve as a window into the forces operating at energies
                 forever beyond the
                 reach of
@@ -198,7 +204,7 @@
                   <img src="images/aside4.jpg" alt="Mtv music image">
                 </figure>
                 <figcaption>
-                  <a href="#">MTV Video Music Awards: 6 Memorable Moments</a>
+                  <a href="#">MTV Video Music Awards</a>
                 </figcaption>
               </div>
               <div class="mtv-image">
@@ -206,15 +212,15 @@
                   <img src="images/aside5.jpg" alt="strength in diversity image">
                 </figure>
                 <figcaption>
-                  <a href="#">The True Cost of Lionel Messi’s Declaration of Independence</a>
+                  <a href="#">The True Cost of Lionel Messi’s</a>
                 </figcaption>
               </div>
               <div class="mtv-image">
                 <figure>
-                  <img src="images/aside6.jpg" alt="back to school">
+                  <img src="images/aside6r.jpg" alt="back to school">
                 </figure>
                 <figcaption>
-                  <a href="#">Resuming school after a long break</a>
+                  <a href="#">Galaxy discovery. Latent power that must explored</a>
                 </figcaption>
               </div>
             </aside>
@@ -520,7 +526,7 @@
             </ul>
           </section>
         </div>
-        <hr class="hr">
+        <!--<hr class="hr">-->
         <div class="wrapper-astronomy-header">
          
           <section class="astronomy-header">
@@ -538,47 +544,54 @@
                 <figure>
                   <img src="images/space1.jpg" alt="image of Joe Skipper/reuters">
                 </figure>
-                <p>image bt Joe Skipper/Reuters</p>
-                <figcaption>This Star Looked Like It Would Explode. Maybe It Just Sneezed
-                  <p>Aug. 14</p>
+                <figcaption>
+                  <p class="galaxy-talk">image bt Joe Skipper/Reuters</p>
+                  <h4>This Star Looked Like It Would Explode. Maybe It Just Sneezed</h4>
+                  <p class="galaxy-talk">Aug. 14</p>
                 </figcaption>
             </div>
             <div>
                 <figure><img src="images/space2.jpg" alt="image of amazon satellite"></figure>
-                <figcaption>Amazon Satellites Add to Astronomers’ Worries About the Night Sky
-                  <p>Aug. 10</p>
+                <figcaption>
+                  <h4>Amazon Satellites Add to Astronomers’ Worries About the Night Sky</h4>
+                  <p class="galaxy-talk">Aug. 10</p>
                 </figcaption>
             </div>
             <div>
                 <figure><img src="images/space3.jpg" alt="image of a supernova star"></figure>
-                <p>image bt Joe Skipper/Reuters</p>
-                <figcaption>A Star Went Supernova in 1987. Where Is It Now?
-                  <p>Aug. 8</p>
+                <figcaption>
+                  <p class="galaxy-talk">image bt Joe Skipper/Reuters</p>
+                  <h4>A Star Went Supernova in 1987. Where Is It Now?</h4>
+                  <pclass="galaxy-talk">Aug. 8</p>
                 </figcaption>
             </div>
             <div>
                 <figure>
                   <img src="images/space4.jpg" alt="image of a star about to explode">
-                </figure>p>image bt Joe Skipper/Reuters</p>
-                <figcaption>This Star Looked Like It Would Explode. Maybe It Just Sneezed
-                  <p>Aug. 14</p>
+                </figure>
+                <figcaption>
+                  <p class="galaxy-talk">image bt Joe Skipper/Reuters</p>
+                  <h4>This Star Looked Like It Would Explode. Maybe It Just Sneezed</h4>
+                  <p class="galaxy-talk">Aug. 14</p>
                 </figcaption>
             </div>
             <div>
                 <figure><img src="images/space5.jpg" alt="image Nasa on mars"></figure>
-                  <p>image bt Joe Skipper/Reuters</p>
-                <figcaption>How NASA Found the Ideal Hole on Mars to Land In
-                  <p>July 30</p>
+                <figcaption>
+                  <p class="galaxy-talk">image bt Joe Skipper/Reuters</p>
+                  <h4>How NASA Found the Ideal Hole to Land In</h4>
+                  <p class="galaxy-talk">July 30</p>
                 </figcaption>
             </div>
             <div>
                 <figure><img src="images/space6.jpg" alt="image of fashion ladies "></figure>
                 
-                <figcaption>‘WAP’ Is Good, Raunchy Fun. On TikTok, It’s at Home
-                  <p>July 30</p>
+                <figcaption>
+                  <h4>‘WAP’ Is Good, Raunchy Fun. On TikTok, It’s at Home</h4>
+                  <p class="galaxy-talk">July 30</p>
                 </figcaption>
             </div>
-            <hr>
+            <!--<hr>-->
             
           </section>
 
@@ -628,8 +641,9 @@
           </aside>
         </div>
       </div>   
-       <hr>
+       
        <div class="wrapper-editors-pick">
+         <!--<hr>-->
        <h4 class="editors-pick">Editor's Pick</h4>
        </div>
     <div class="grand-wrapper-bottom-astronomy-img">   
@@ -637,24 +651,27 @@
           <section class="bottom-astronomy-img">
               <div>
                 <figure><img src="images/space7.jpg" alt="image of Francesco ciccolella"></figure>
-                <p>Francesco Ciccolella</p>
-                <figcaption> I Don’t Know If My Relationship Will Survive the Pandemic
-                  <p>Aug. 8</p>
+                
+                <figcaption>
+                  <p class="galaxy-talk">Francesco Ciccolella</p>
+                  <h4>I Don’t Know If My Relationship Will Survive the Pandemic</h4>
+                  <p class="galaxy-talk">Aug. 8</p>
                 </figcaption>
               </div>
               <div>
                   <figure><img src="images/space8.jpg" alt="images of Bill & Ted"></figure>
-                  <p>Francesco Ciccolella</p>
-                  <figcaption> Bill & Ted’ Explained by Gen X to Gen Z
-                    July 30
-                    <p>Aug. 8</p>
+                  <figcaption> 
+                    <p class="galaxy-talk">Francesco Ciccolella</p>
+                    <h4>Bill & Ted’ Explained by Gen X to Gen Z July 30</h4>
+                    <p class="galaxy-talk">Aug. 8</p>
                   </figcaption>
               </div>  
               <div>
                 <figure><img src="images/space9.jpg" alt="image of God is dead"></figure>
-                <p>Bill Mayer</p>
-                <figcaption> God Is Dead. So Is the Office. These People Want to Save Both
-                  <p>Aug. 8</p>
+                <figcaption> 
+                  <p class="galaxy-talk">Bill Mayer</p>
+                  <h4>God Is Dead. So Is the Office. These People Want to Save Both</h4>
+                  <p class="galaxy-talk">Aug. 8</p>
                 </figcaption>
               </div>
           </section>
@@ -677,7 +694,7 @@
 
     <!------Footer start here------>
 
-    <footer>
+   <footer>
       <div class="wrapper-footer-home-page">
         <nav class="footer-home-page">
          
