@@ -5,20 +5,17 @@
 }
 
 .body {
-  font-family: geogia, selif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #fff;
-
 }
 
 a {
   text-decoration: none;
   color: #000;
-
 }
 
 ul {
   list-style-type: none;
-
 }
 
 ul a {
@@ -100,7 +97,6 @@ ul a {
   font-size: 11px;
   font-weight: 700;
   border: 1px solid #000;
-
 }
 
 .button a {
@@ -112,7 +108,7 @@ ul a {
   height: 6vh;
 }
 
-/*Main content section starts here*/
+/* Main content section starts here */
 
 .big-bang {
   flex-flow: row wrap;
@@ -184,7 +180,7 @@ ul a {
   width: 60%;
 }
 
-/*aside bar section starts here*/
+/* aside bar section starts here */
 
 .container-right {
   align-items: flex-start;
@@ -202,7 +198,6 @@ ul a {
   width: 79px;
   height: 79px;
   padding-right: 8px;
-
 }
 
 .mtv-image {
@@ -213,7 +208,6 @@ ul a {
 .wrapper-thank-you {
   width: 70%;
   height: 14vh;
-  
 }
 
 .thank-you {
@@ -234,7 +228,7 @@ ul a {
   width: 60.5%;
 }
 
-/* Inflation main-article images start here*/
+/* Inflation main-article images start here */
 
 .revelation img {
   width: 232px;
@@ -270,7 +264,7 @@ ul a {
   padding: 40px 0;
 }
 
-/*article-2 section starts here */
+/* article-2 section starts here */
 
 .article-sub {
   width: 50%;
@@ -339,10 +333,9 @@ ul a {
   width: 33%;
   float: right;
   margin: 5px;
-  
 }
 
-/*More in space and astronomy styling section starts here*/
+/* More in space and astronomy styling section starts here */
 
 .astronomy img {
   width: 275px;
@@ -378,7 +371,7 @@ ul a {
 
 .bottom-astronomy-img img {
   width: 275px;
-  height: 185px;  
+  height: 185px;
 }
 
 .bottom-aside-right {
@@ -397,7 +390,6 @@ ul a {
 
 .footer-home-page {
   padding: 20px 0 10px 0;
-  
 }
 
 .home-page a {
@@ -410,16 +402,15 @@ ul a {
   grid-template-rows: repeat(16, 1fr);
   font-size: 14px;
   height: 35vh;
-  
 }
 
 .newyorktimes h5 {
-  padding: 5px; 
+  padding: 5px;
 }
 
 .icons-digital {
   padding: 3px;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 .icons-digital2 {
@@ -445,12 +436,9 @@ ul a {
   grid-template-columns: 4fr 2fr;
   position: fixed;
   bottom: 0;
-  height: 7%; 
+  height: 7%;
 }
 
 .fixed-padding {
   padding: 10px;
 }
-
-
-
