@@ -446,3 +446,8 @@ ul a {
 .fixed-padding {
   padding: 10px;
 }
+
+h2.hidden {
+  visibility: hidden;
+}
+
