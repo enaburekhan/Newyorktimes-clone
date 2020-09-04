@@ -78,12 +78,29 @@ ul a {
   width: 15%;
 }
 
+.rgb {
+  color: rgb(102, 102, 102);
+}
+
+.color-333 {
+  color: #333;
+}
+
+.fontz {
+  font-size: 14px;
+}
+
 /* Nav bar section starts here */
 
 .nav-bar {
-  height: 6vh;
+  height: 7%;
   padding-left: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
 }
 
 .cosmos {
@@ -116,11 +133,13 @@ ul a {
 
 .big-bang {
   flex-flow: row wrap;
-  width: 30%;
+  width: 35%;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   line-height: 48px;
   text-align: left;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
 }
 
 .main-img img {
@@ -160,7 +179,6 @@ ul a {
 
 .writer {
   height: 100%;
-  color: rgb(102, 102, 102);
   width: 39%;
   align-self: flex-end;
   justify-self: flex-end;
@@ -174,7 +192,6 @@ ul a {
   flex-flow: column wrap;
   font-family: arial, sans-serif;
   font-size: 16px;
-  color: #333;
   align-items: flex-end;
 }
 
@@ -206,7 +223,6 @@ ul a {
 
 .mtv-image {
   width: 55%;
-  font-size: 14px;
 }
 
 .wrapper-thank-you {
@@ -216,7 +232,6 @@ ul a {
 
 .thank-you {
   width: 29%;
-  font-size: 14px;
 }
 
 .pre-thank-you {
@@ -248,13 +263,10 @@ ul a {
   width: 980px;
   height: auto;
   grid-gap: 10px 10px;
-  color: #333;
-  font-size: 14px;
 }
 
 .theory {
   width: 64.5%;
-  color: #333;
   margin: 32px 0 25px 0;
 }
 
@@ -264,7 +276,6 @@ ul a {
 
 .author {
   width: 64.5%;
-  color: #333;
   padding: 40px 0;
 }
 
@@ -273,7 +284,6 @@ ul a {
 .article-sub {
   width: 50%;
   font-family: arial, sans-serif;
-  color: #333;
   overflow: auto;
 }
 
@@ -290,7 +300,6 @@ ul a {
 }
 
 .andrei {
-  color: rgb(102, 102, 102);
   font-size: 15px;
   width: 83%;
   padding: 10px 90px 40px 0;
@@ -302,17 +311,14 @@ ul a {
 }
 
 .telescope {
-  color: rgb(102, 102, 102);
   padding: 5px 0 30px 0;
 }
 
 .ripples {
-  color: rgb(102, 102, 102);
   font-size: 13px;
 }
 
 .ripples a {
-  color: rgb(102, 102, 102);
   text-decoration-line: underline;
 }
 
@@ -370,7 +376,6 @@ ul a {
 
 .galaxy-talk {
   font-size: 13px;
-  color: rgb(102, 102, 102);
 }
 
 .bottom-astronomy-img img {
@@ -397,14 +402,12 @@ ul a {
 }
 
 .home-page a {
-  color: rgb(102, 102, 102);
   font-size: 13px;
 }
 
 .newyorktimes {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  font-size: 14px;
   height: 35vh;
 }
 
@@ -414,7 +417,6 @@ ul a {
 
 .icons-digital {
   padding: 3px;
-  font-size: 14px;
 }
 
 .icons-digital2 {
@@ -430,7 +432,6 @@ ul a {
   grid-template-columns: 2.5fr repeat(12, 1fr);
   width: 79%;
   font-size: 12px;
-  color: rgb(102, 102, 102);
   padding-bottom: 40px;
   margin-bottom: 30px;
 }
@@ -441,6 +442,7 @@ ul a {
   position: fixed;
   bottom: 0;
   height: 7%;
+  background-color: #fff;
 }
 
 .fixed-padding {
