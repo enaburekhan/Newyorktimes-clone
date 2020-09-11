@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.just {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.itemz {
+  align-items: center;
+}
+
+.middle {
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.mask {
+  overflow: hidden;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-95 {
+  width: 95%;
+}
+
+.width-15 {
+  width: 15%;
+}
+
+.rgb {
+  color: rgb(102, 102, 102);
+}
+
+.color-333 {
+  color: #333;
+}
+
+.fontz {
+  font-size: 14px;
+}
+
+/* Nav bar section starts here */
+
+.nav-bar {
+  height: 7%;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.1px solid rgb(223, 215, 215);
+}
+
+.cosmos {
+  font-weight: 900;
+}
+
+.right-nav {
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #417093;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid #000;
+}
+
+.button a {
+  color: #fff;
+}
+
+.center-text img {
+  width: 30%;
+  height: 6vh;
+}
+
+/* Main content section starts here */
+
+.big-bang {
+  flex-flow: row wrap;
+  width: 35%;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+}
+
+.main-img img {
+  width: 1114px;
+  height: 600px;
+}
+
+.inflation-1 {
+  width: 55%;
+  margin-left: 198px;
+  color: gray;
+  padding-top: 9px;
+}
+
+.dennis-icons {
+  width: 60%;
+  height: 8vh;
+  margin: 40px;
+}
+
+.icons-media {
+  width: 50%;
+}
+
+.icons-media .icon {
+  justify-content: space-evenly;
+  background-color: rgb(247, 243, 243);
+  border-radius: 50%;
+  padding: 7px;
+  margin: 5px;
+  width: 40px;
+}
+
+.icons-media .non-icon {
+  padding: 7px;
+  font-size: 16px;
+}
+
+.writer {
+  height: 100%;
+  width: 39%;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.overbye {
+  padding-left: 25px;
+}
+
+.left-container {
+  flex-flow: column wrap;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  align-items: flex-end;
+}
+
+.left-container p {
+  align-self: flex-end;
+  padding-right: 30px;
+  width: 60%;
+}
+
+/* aside bar section starts here */
+
+.container-right {
+  align-items: flex-start;
+  width: 35%;
+}
+
+.aside-img {
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.aside-img img {
+  width: 79px;
+  height: 79px;
+  padding-right: 8px;
+}
+
+.mtv-image {
+  width: 55%;
+}
+
+.wrapper-thank-you {
+  width: 70%;
+  height: 14vh;
+}
+
+.thank-you {
+  width: 29%;
+}
+
+.pre-thank-you {
+  padding: 15px 0;
+}
+
+.pre-subscribe a {
+  color: #171861;
+}
+
+.article-padding {
+  padding: 15px 0;
+  width: 60.5%;
+}
+
+/* Inflation main-article images start here */
+
+.revelation img {
+  width: 232px;
+  height: 185px;
+}
+
+.inflation-wrapper {
+  flex-flow: column wrap;
+}
+
+.front-revelation {
+  grid-template-columns: repeat(4, 1fr);
+  width: 980px;
+  height: auto;
+  grid-gap: 10px 10px;
+}
+
+.theory {
+  width: 64.5%;
+  margin: 32px 0 25px 0;
+}
+
+.img-text {
+  padding-right: 5px;
+}
+
+.author {
+  width: 64.5%;
+  padding: 40px 0;
+}
+
+/* article-2 section starts here */
+
+.article-sub {
+  width: 50%;
+  font-family: arial, sans-serif;
+  overflow: auto;
+}
+
+.video {
+  width: 83%;
+  height: 358px;
+  margin: 40px 0 1px 0;
+}
+
+.gap {
+  font-size: 18px;
+  width: 650px;
+  padding: 5px;
+}
+
+.andrei {
+  font-size: 15px;
+  width: 83%;
+  padding: 10px 90px 40px 0;
+}
+
+.satalite img {
+  width: 98%;
+  height: 450px;
+}
+
+.telescope {
+  padding: 5px 0 30px 0;
+}
+
+.ripples {
+  font-size: 13px;
+}
+
+.ripples a {
+  text-decoration-line: underline;
+}
+
+.stanford {
+  font-size: 13px;
+}
+
+.read {
+  border: 1px solid black;
+  width: 47%;
+  float: left;
+}
+
+.comment-section {
+  width: 650px;
+  float: right;
+  padding: 20px 0 40px 0;
+  margin-left: 5px;
+}
+
+.reload {
+  width: 33%;
+  float: right;
+  margin: 5px;
+}
+
+/* More in space and astronomy styling section starts here */
+
+.astronomy img {
+  width: 275px;
+  height: 185px;
+}
+
+.aside-right {
+  width: 26.5%;
+  height: 100%;
+}
+
+.astronomy-header {
+  padding: 15px 0;
+}
+
+.astronomy {
+  grid-template-columns: repeat(3, 1fr);
+  width: 72.5%;
+}
+
+.popular {
+  width: 26.5%;
+}
+
+.editors-pick {
+  padding: 15px 0;
+}
+
+.galaxy-talk {
+  font-size: 13px;
+}
+
+.bottom-astronomy-img img {
+  width: 275px;
+  height: 185px;
+}
+
+.bottom-aside-right {
+  width: 26.5%;
+}
+
+.bottom-astronomy-img {
+  width: 72.5%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.trump {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.footer-home-page {
+  padding: 20px 0 10px 0;
+}
+
+.home-page a {
+  font-size: 13px;
+}
+
+.newyorktimes {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  height: 35vh;
+}
+
+.newyorktimes h5 {
+  padding: 5px;
+}
+
+.icons-digital {
+  padding: 3px;
+}
+
+.icons-digital2 {
+  font-size: 16px;
+  padding: 3px;
+}
+
+.icons-sub-section {
+  padding-bottom: 10px;
+}
+
+.footer-bottom {
+  grid-template-columns: 2.5fr repeat(12, 1fr);
+  width: 79%;
+  font-size: 12px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.last-footer-bottom {
+  border-top: 1px solid black;
+  grid-template-columns: 4fr 2fr;
+  position: fixed;
+  bottom: 0;
+  height: 7%;
+  background-color: #fff;
+}
+
+.fixed-padding {
+  padding: 10px;
+}
+
+h2.hidden {
+  visibility: hidden;
+}

@@ -1,73 +1,54 @@
-# Bubble Sort
+# Newyork Times Clone
 
-> For this project, we created two **sorting algorithms** that use the [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) method. 
+> For this project, we created two **Newyork times Replica Page **  [Positioning and Floating elements](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements) CSS. 
 
-This side-by-side comparative method is seen in the GIF image below.
+This a visual representation of how the page looks like is in the image below.
 
-![image](.github/animation.gif)
+![image](https://user-images.githubusercontent.com/30318155/92102993-a500bb80-eddf-11ea-8f21-e4a9e4c65283.png)
 
-![screenshot](.github/bubble_sort.png)
-![screenshot](.github/bubble_sort_by2.png)
+> The page was done in HTML5 and designed in CSS3 using the positioning and floating elements.The page has a navbar, header section, main content section which comprises of images and an embedded videos. It also has an aside content area and a footer with various links. The bottom footer is fixed at the bottom.
 
-> The second bubble sort method sorts an array of strings by the length of each element using the "yield" keyword and a code block.
-
-*Note: The first algorithm exits once an iteration is passed without any swaps made, signalling that the array is completely sorted. The second algorithm iterates the maximum possible number times (array.length - 1) before exiting. While both methods are suitable for the purposes of this project, it should be noted the first method is better practice in that it does not run code unnecessarily.*
+*Note: The Page is purely done in HTML and CSS and has no media queries.*
 
 ## Built With
-- Ruby
-- VSCode
-- Rubocop
+- HMTL5
+- CSS3 box model
+- CSS Flexbox 
+- CSS Grid
+- CSS Float
 
 ## Live Demo
 
-To quickly see our project in action, visit the [live demo](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb) on repl.it.
+To quickly see our project in action, visit the [live demo](https://raw.githack.com/enaburekhan/Newyorktimes-clone/feature-newyorktimes/index.html) on githack.
 
 ## Getting Started
 
 ### Prerequisites
 
-To get this project up and running, you must already have ruby installed on your computer.
+To get this project up and running, you must have a browser running on your machine.
 
 ### Installation
 
 **To get this project set up on your local machine, follow these simple steps:**
 
-1. Open Terminal.
-
-2. Navigate to your desired location to download the contents of this repository.
-
-3. Copy and paste the following code into the Terminal:
-
-    git clone https://github.com/cristianCeamatu/microverse-bubble-sort.git
-
-4. Hit enter.
-
-5. Once the repository has been cloned, navigate inside the repository and type:
-
-    ruby main.rb
-    
-    This will run the code, printing the output of our tests to the terminal. 
-
-6. To change those tests, simply open main.rb in a code editor and modify the values stored in the test_array and test_run variables.
-
-6. Enjoy sorted arrays of data for the rest of your life.
+1. Open it in any browser
 
 ## Authors
 
-👤 **Cristian Viorel Ceamatu**
+👤 **Eric Enaburekhan**
 
-- Github: [@cristianCeamatu](https://github.com/cristianCeamatu)
-- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
-- Linkedin: [Ceamatu Cristian Viorel](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@enaburekhan](https://github.com/enaburekhan)
+- Twitter: [@enaburekhaneric](https://twitter.com/enaburekhaneric)
+- Linkedin: [@ericenaburekhan](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
 
-👤**Muhammed Cihad Kurel**
-- Github: [@mcihadkurel](https://github.com/mcihadkurel)
-- Twitter: [@mece_ka](https://twitter.com/mece_ka)
-- LinkedIn: [@Muhammed Cihad Kurel](https://www.linkedin.com/in/muhammed-cihad-8187581a8/)
+👤**Tendai Nyandoro**
+- Github: [@Tendai Nyandoro](https://github.com/tnyandoro)
+- Twitter: [@Tendai28](https://twitter.com/tendai28)
+- LinkedIn: [@Tendai Nyandoro](https://www.linkedin.com/in/tendai-nyandoro-a8060826/)
 
 ## 🤝 Contributing
 
-The best way you can contribute to this project is by submitting an [issue](https://github.com/cristianCeamatu/microverse-bubble-sort/issues) to help us improve it!
+The best way you can contribute to this project is by submitting an [issue](https://github.com/enaburekhan/Newyorktimes-clone/issues) to help us improve it!
 
 ## Show your support
 
